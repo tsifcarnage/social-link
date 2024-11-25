@@ -14,24 +14,34 @@ section{
     margin: 0 auto;
     display:flex;
     width: 50vh;
-    max-height: 83vh;
+    max-height: 105vh;
     align-items: center;
     flex-direction: column;
     background-color: rgb(31 31 31);
     border-radius: 20px;
 }
+img{
+    margin: 20px;
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+}
+p{
+    padding: 5px 0 20px 0;
+    color:yellow;
+}
 .appli{
     width: 80%;
-    max-height: 220px;
     display: flex;
     flex-direction: column;
     gap:10px;
     margin: 20px 0 20px 0;
     button{
+        font-weight:550;
         color:white;
         background-color: #333333;
-        font-size: 100%;
-        padding: 5px 40px 5px 40px;
+        font-size: 90%;
+        padding: 10px 40px 10px 40px;
         border-radius: 10px;
     }
     button:hover{
