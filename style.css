@@ -30,6 +30,9 @@ p{
     padding: 5px 0 20px 0;
     color:yellow;
 }
+cite{
+    font-style:normal;
+}
 .appli{
     width: 80%;
     display: flex;
