@@ -23,12 +23,17 @@ section {
   flex-direction: column;
   background-color: rgb(31 31 31);
   border-radius: 20px;
+  box-shadow: 2px 3px 16px 0px red;
 }
 img {
   margin: 20px;
   border-radius: 50%;
   width: 118px;
   height: 100px;
+}
+h1 {
+  font-family: Georgia, "Times New Roman", Times, serif;
+  font-size: 26px;
 }
 p {
   padding: 5px 0 20px 0;
@@ -54,9 +59,36 @@ cite {
 
     border-radius: 10px;
   }
-  a:hover {
-    color: black;
-    font-weight: bold;
-    background-color: var(--green);
-  }
+}
+a:first-child:hover {
+  background-color: black;
+  color: red;
+  font-size: 24px;
+}
+a:nth-child(2):hover {
+  background-color: red;
+  color: rgb(0, 0, 0);
+  font-size: 24px;
+}
+a:nth-child(3):hover {
+  background-color: blue;
+  color: rgb(255, 255, 255);
+  font-size: 24px;
+}
+a:nth-child(4):hover {
+  background-color: var(--green);
+  color: rgb(0, 0, 0);
+  font-size: 24px;
+}
+a:last-child:hover {
+  /* background-color: rgb(238, 62, 62);
+  color: rgb(255, 230, 0); */
+  background: rgb(201, 13, 13);
+  background: linear-gradient(
+    90deg,
+    rgba(201, 13, 13, 1) 0%,
+    rgba(154, 43, 138, 1) 38%,
+    rgba(231, 255, 27, 1) 100%
+  );
+  font-size: 24px;
 }
