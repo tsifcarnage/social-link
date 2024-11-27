@@ -1,57 +1,62 @@
-@import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Oswald:wght@200..700&display=swap');
-*{
-    box-sizing: border-box;
-    margin: 0;
-    padding:0;  
+@import url("https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Oswald:wght@200..700&display=swap");
+:root {
+  --green: rgb(15, 209, 15);
 }
-body{
-    color:white;
-    background-color: black;
-    margin-top: 40px;
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
 }
-section{
-    padding:40px 0 40px 0;
-    margin: 0 auto;
-    display:flex;
-    width: 50vh;
-    max-height: 105vh;
-    align-items: center;
-    flex-direction: column;
-    background-color: rgb(31 31 31);
-    border-radius: 20px;
+body {
+  color: white;
+  background-color: black;
+  margin-top: 40px;
+  font-family: "DM Sans";
 }
-img{
-    margin: 20px;
-    border-radius: 50%;
-    width: 100px;
-    height: 100px;
+section {
+  padding: 40px 0 40px 0;
+  margin: 0 auto;
+  display: flex;
+  width: 50vh;
+  max-height: 105vh;
+  align-items: center;
+  flex-direction: column;
+  background-color: rgb(31 31 31);
+  border-radius: 20px;
 }
-p{
-    padding: 5px 0 20px 0;
-    color:yellow;
+img {
+  margin: 20px;
+  border-radius: 50%;
+  width: 118px;
+  height: 100px;
 }
-cite{
-    font-style:normal;
+p {
+  padding: 5px 0 20px 0;
+  color: var(--green);
 }
-.appli{
-    width: 80%;
-    display: flex;
-    flex-direction: column;
-    gap:10px;
-    margin: 20px 0 20px 0;
-    button{
-        font-weight:550;
-        color:white;
-        background-color: #333333;
-        font-size: 90%;
-        padding: 10px 40px 10px 40px;
-        border-radius: 10px;
-    }
-    button:hover{
-        color:black;
-        font-weight: bold;
-        background-color: yellow;
-    }
+cite {
+  font-style: normal;
 }
+.appli {
+  width: 80%;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  margin: 20px 0 20px 0;
+  a {
+    font-size: 20px;
+    padding: 20px;
+    text-align: center;
+    text-decoration: none;
+    font-weight: 550;
+    color: white;
+    background-color: #333333;
 
-
+    border-radius: 10px;
+  }
+  a:hover {
+    color: black;
+    font-weight: bold;
+    background-color: var(--green);
+  }
+}
