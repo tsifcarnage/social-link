@@ -12,7 +12,7 @@ body {
   background-color: black;
   margin-top: 40px;
   font-family: "DM Sans";
-  overflow: hidden;
+  overflow-x: hidden;
 }
 section {
   padding: 40px 0 40px 0;
